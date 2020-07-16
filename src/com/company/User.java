@@ -3,7 +3,7 @@ package com.company;
 import com.mongodb.BasicDBObject;
 
 public class User {
-    private BasicDBObject  user;
+    private BasicDBObject user;
 
     public User(String username, String password){
         user = new BasicDBObject();
